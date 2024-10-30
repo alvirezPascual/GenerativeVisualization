@@ -3,10 +3,24 @@ void setup() {
   background(119, 0, 200);
   noFill();
   
-  // Set initial position
+  
+}
+
+void draw(){
+  if (mousePressed || frameCount <= 1){
+    display();
+  }
+}
+
+void display(){
+  background(0);
+// Set initial position
   float x = width / 3;
   float y = height / 3;
-  
+  //if (mouseX > -1){
+    // x = width / mouseX;
+   //y = height / mouseY;
+  //}
   // Draw a random walk
   for (int i = 0; i < 1000; i++) {
     stroke(random(255), random(255), random(255));
@@ -17,3 +31,6 @@ void setup() {
     y += stepY;
   }
 }
+
+
+
