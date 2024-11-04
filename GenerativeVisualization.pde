@@ -32,5 +32,13 @@ void display(){
   }
 }
 
-
+/**
+  Assignment: Basic Generative Visualization Exploration
+  Student: Oscar Pascual
+  Pasadena City College, Fall 2024
+  Course Name: DMA60 Creative Coding
+  Prof. George McKinney
+  Project Description: This program creates randomized lines that are
+   multi-colored and rearrange themselves with a mouse click.
+  */
 
